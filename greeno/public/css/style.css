@@ -1101,11 +1101,11 @@ ul.top_icon li a {
      position: relative;
      border-bottom: solid #eee 1px;
 }
-.main-menu ul>li .sub-down li a::before {}
+/* .main-menu ul>li .sub-down li a::before {}*/
 .main-menu ul>li .sub-down li a:hover {
      color: #111111;
 }
-.main-menu ul>li .sub-down li a:hover::before {}
+/*.main-menu ul>li .sub-down li a:hover::before {}*/
 .main-menu ul li:first-child {
      margin-left: 0;
 }
@@ -1159,7 +1159,7 @@ ul.top_icon li a {
      display: inline-block;
      vertical-align: middle;
 }
-.main-menu ul>li:nth-child (6) {
+.main-menu ul>li:nth-child(6) {
      padding-right: 0px;
 }
 .nav>li {
@@ -1175,7 +1175,7 @@ ul.top_icon li a {
      right: 0;
      padding: 15px 0px;
 }
-.sub-full {}
+/*.sub-full {}*/
 .simple-down {
      padding: 15px;
 }
@@ -1808,6 +1808,7 @@ input[type="radio"] .styled:checked+label::after {
 img.zoom {
      width: 100%;
      object-fit: cover;
+     transition: all 0.3s ease-in-out;
      -webkit-transition: all .3s ease-in-out;
      -moz-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
