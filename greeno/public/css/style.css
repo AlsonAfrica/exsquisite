@@ -1661,16 +1661,33 @@ input[type="radio"] .styled:checked+label::after {
      line-height: 32px;
      display: block;
 }
+
 .plants .plants-box {
      background-color: #fff;
      box-shadow: #dcd8d8 0px 1px 3px 0px;
      margin-bottom: 30px;
+     position: relative;
 }
+
+.plants .plants-box::after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     box-shadow: 0px 0px 5px rgba(0,0,0,.4);
+     z-index: -1;
+}
+
+
 .plants .plants-box figure {
      margin: 0px;
+     filter: drop-shadow(0px 0px 2px rgba(0,0,0,.5));
 }
 .plants .plants-box figure img {
      width: 100%;
+     filter: drop-shadow(0px 0px 5px rgba(0,0,0,.1));
 }
 .plants .plants-box h3 {
      font-size: 30px;
