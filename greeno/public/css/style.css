@@ -81,6 +81,10 @@ h4 {
      font-size: 16px
 }
 
+#h4 {
+     margin-top: 80px;
+}
+
 h5 {
      font-size: 14px
 }
@@ -1102,11 +1106,11 @@ ul.top_icon li a {
      position: relative;
      border-bottom: solid #eee 1px;
 }
-.main-menu ul>li .sub-down li a::before {}
+/*.main-menu ul>li .sub-down li a::before {}*/
 .main-menu ul>li .sub-down li a:hover {
      color: #111111;
 }
-.main-menu ul>li .sub-down li a:hover::before {}
+/*.main-menu ul>li .sub-down li a:hover::before {}*/
 .main-menu ul li:first-child {
      margin-left: 0;
 }
@@ -1176,7 +1180,7 @@ ul.top_icon li a {
      right: 0;
      padding: 15px 0px;
 }
-.sub-full {}
+/*.sub-full {}*/
 .simple-down {
      padding: 15px;
 }
@@ -1635,10 +1639,12 @@ input[type="radio"] .styled:checked+label::after {
 .plants {
      padding: 90px 0px;
 }
+
 .titlepage {
      text-align: center;
      padding-bottom: 50px;
 }
+
 .titlepage h2 {
      padding: 0px 0px 36px 0px;
      font-size: 50px;
@@ -1675,7 +1681,14 @@ input[type="radio"] .styled:checked+label::after {
 }
 .plants .plants-box figure img {
      width: 100%;
+     height: 18.75rem;
+     object-fit: cover;
 }
+
+.plants .plants-box .img-top {
+     object-position: top;
+}
+
 .plants .plants-box h3 {
      font-size: 30px;
      line-height: 36px;
