@@ -82,7 +82,7 @@ h4 {
 }
 
 #h4 {
-     margin-top: 80px;
+     margin-top: 5rem;
 }
 
 h5 {
@@ -202,6 +202,8 @@ button {
 .full {
      float: left;
      width: 100%;
+     position: absolute;
+     top: -80px;
 }
 
 .layout_padding {
@@ -457,16 +459,12 @@ a.readmore_bt {
 .logo {
      float: left;
      position: absolute;
-     
-    
 }
      
 .logo img{
      border-radius: 50%;
      top: -5px;
      left: -5px;
-    
- 
 }
 
 nav.main-menu {
