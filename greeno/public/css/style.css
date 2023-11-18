@@ -34,6 +34,7 @@ body {
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     background-image: linear-gradient(to right, #fff7ad,#ffa9f9);
 }
 
 a {
@@ -59,12 +60,13 @@ h6 {
      padding: 0 0 10px 0;
      font-weight: normal;
      line-height: normal;
-     color: #a6a81c;
+     color: #151414;
      margin: 0
 }
 
 h1 {
      font-size: 24px
+     
 }
 
 h2 {
@@ -123,6 +125,7 @@ p {
      font-weight: 300;
      font-size: 15px;
      line-height: 24px;
+     padding: 10% 0;
 }
 
 a {
@@ -448,31 +451,30 @@ a.readmore_bt {
 }
 
 .logo {
+     float: left;
      position: absolute;
-     top: 10px;
-     bottom: 10px;
-     left: 10px;
-     border-radius: 50%;
+     
     
+}
+     
+.logo img{
+     border-radius: 50%;
+     top: -5px;
+     left: -5px;
+    
+ 
 }
 
 nav.main-menu {
-     float: left;
+     float: right;
      margin-left: 0;
-
 }
 
-.search-container {
-     position: relative;
-     left: 400px;
-     top: -50px;
- }
- #search {
-     padding: 2px;
-     margin-right: 5px;
- }
- 
- 
+ul.top_icon {
+     float: right;
+     padding-top: 17px;
+}
+
 ul.top_icon li {
      float: left;
      color: #fff;
@@ -492,11 +494,11 @@ ul.top_icon li a {
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-     color: yellowgreen;
+     color: #098459;
 }
 
 .menu-area-main li.active a {
-     color: yellowgreen;
+     color: #098459;
 }
 
 .right_cart_section {
@@ -517,7 +519,6 @@ ul.top_icon li a {
 
 .main-menu ul>li nth:child(5) a {
      padding-right: 0px;
-     
 }
 
 .right_cart_section ul li {
@@ -1101,11 +1102,11 @@ ul.top_icon li a {
      position: relative;
      border-bottom: solid #eee 1px;
 }
-/* .main-menu ul>li .sub-down li a::before {}*/
+.main-menu ul>li .sub-down li a::before {}
 .main-menu ul>li .sub-down li a:hover {
      color: #111111;
 }
-/*.main-menu ul>li .sub-down li a:hover::before {}*/
+.main-menu ul>li .sub-down li a:hover::before {}
 .main-menu ul li:first-child {
      margin-left: 0;
 }
@@ -1159,7 +1160,7 @@ ul.top_icon li a {
      display: inline-block;
      vertical-align: middle;
 }
-.main-menu ul>li:nth-child(6) {
+.main-menu ul>li:nth-child(6){
      padding-right: 0px;
 }
 .nav>li {
@@ -1175,7 +1176,7 @@ ul.top_icon li a {
      right: 0;
      padding: 15px 0px;
 }
-/*.sub-full {}*/
+.sub-full {}
 .simple-down {
      padding: 15px;
 }
@@ -1594,18 +1595,20 @@ input[type="radio"] .styled:checked+label::after {
      left: 0;
      top: 16%;
      position: relative;
+    
 }
 .banner-main .carousel-caption h1 {
-     font-size: 50px;
+     font-size: 46px;
      line-height: 55px;
      font-weight: bold;
-     color: yellowgreen;
+     color:#fca5a5;
 }
+
 .banner-main .carousel-caption p {
-     color: #0c0404;
-     padding: 9px 0px;
-     margin-bottom: 50px;
-     font-size: 20px;
+     color: black;
+     padding: 10px 0px;
+     margin-bottom: 10px;
+     font-weight: normal;
 }
 .color {
      color: #0c0404;
@@ -1622,11 +1625,12 @@ input[type="radio"] .styled:checked+label::after {
 }
 .img-box figure {
      margin: 0;
-     border-radius: 50%;
+     
 }
 .img-box figure img {
      box-shadow: #308409 0px 0px 0px 0px;
      border-radius: 50%;
+     
 }
 .plants {
      padding: 90px 0px;
@@ -1653,7 +1657,7 @@ input[type="radio"] .styled:checked+label::after {
      margin: 10px auto;
      width: 50%;
      height: 6px;
-     background: #308409;
+     background: #81417d;
 }
 .titlepage span {
      color: #141012;
@@ -1661,33 +1665,16 @@ input[type="radio"] .styled:checked+label::after {
      line-height: 32px;
      display: block;
 }
-
 .plants .plants-box {
      background-color: #fff;
      box-shadow: #dcd8d8 0px 1px 3px 0px;
      margin-bottom: 30px;
-     position: relative;
 }
-
-.plants .plants-box::after {
-     content: '';
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     box-shadow: 0px 0px 5px rgba(0,0,0,.4);
-     z-index: -1;
-}
-
-
 .plants .plants-box figure {
      margin: 0px;
-     filter: drop-shadow(0px 0px 2px rgba(0,0,0,.5));
 }
 .plants .plants-box figure img {
      width: 100%;
-     filter: drop-shadow(0px 0px 5px rgba(0,0,0,.1));
 }
 .plants .plants-box h3 {
      font-size: 30px;
@@ -1808,7 +1795,6 @@ input[type="radio"] .styled:checked+label::after {
 img.zoom {
      width: 100%;
      object-fit: cover;
-     transition: all 0.3s ease-in-out;
      -webkit-transition: all .3s ease-in-out;
      -moz-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
@@ -1860,7 +1846,7 @@ img.zoom {
      margin: 10px auto;
      width: 283px;
      height: 6px;
-     background: #308409;
+     background: #46254a;
 }
 .Gallery .Gallery-box:hover .hoverle {
      position: absolute;
@@ -2131,4 +2117,24 @@ ul.location_icon span {
      right: 40px;
      top: inherit;
      bottom: 10px;
+}
+h4{
+     text-align: center;
+     padding: 0px 0px 36px 0px;
+     font-size: 50px;
+     color: #a3a3a3;
+     line-height: 50px;
+     position: relative;
+     margin-bottom: 20px;
+}
+h4::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 70%;
+     margin: 10px auto;
+     width: 50%;
+     height: 6px;
+     
 }
