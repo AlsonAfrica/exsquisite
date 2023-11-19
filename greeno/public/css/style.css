@@ -1701,7 +1701,7 @@ input[type="radio"] .styled:checked+label::after {
      color: #0d0e0a;
 }
 .about {
-     background: url(../images/about-bg.jpg);
+     background: url(../images/Gallery_images/vase_banner.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding: 70px 0px 10px 0px;
