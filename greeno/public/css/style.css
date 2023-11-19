@@ -1623,7 +1623,7 @@ input[type="radio"] .styled:checked+label::after {
      margin-right: 10px;
 }
 .btn-primary:hover {
-     background: #308409;
+     background:#ac3990;
 }
 .img-box figure {
      margin: 0;
@@ -1902,7 +1902,7 @@ img.zoom {
      padding: 0px 0px 36px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #050303;
+     color: #010101;
      line-height: 50px;
      position: relative;
      margin-bottom: 20px;
@@ -1987,7 +1987,7 @@ textarea {
      width: 100%;
 }
 .footer {
-     background-color: #212120;
+     background-color: #5b5b57;
      text-align: center;
 }
 .footer .headinga h3 {
@@ -2121,7 +2121,7 @@ ul.location_icon span {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-     background: #308409;
+     background: rgb(190, 106, 167);
      color: #fff;
 }
 #main_slider a.carousel-control-prev {
