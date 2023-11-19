@@ -1694,11 +1694,16 @@ input[type="radio"] .styled:checked+label::after {
      justify-content: center;
      align-items: center;
      justify-content: center;
-     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
      overflow: hidden;
      border-radius: 10px;
      transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+     height: 360px;
 }
+
+.plants .plants-box:hover {
+     height: 690px;
+}
+
 .plants .plants-box figure {
      margin: 0px;
 }
@@ -1833,7 +1838,7 @@ box-shadow:  -20px 20px 60px #ffa9f9,
      display: block;
 }
 .Gallery {
-     margin-top: 90px;
+     margin-top: 50px;
      align-items: center;
      justify-content: center;
      align-items: center;
@@ -1843,6 +1848,11 @@ box-shadow:  -20px 20px 60px #ffa9f9,
      border-radius: 10px;
      transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
+
+.Gallery .container .titlepage h2 {
+     padding-top: 40px;
+}
+
 .Gallery .Gallery-box {
      margin-bottom: 15px;
      margin-right: -7px;

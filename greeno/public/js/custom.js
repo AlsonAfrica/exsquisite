@@ -384,6 +384,4 @@ $(function () {
     });
 
 	$(".about-box").draggable();
-
-	
 });
