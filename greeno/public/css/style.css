@@ -1726,11 +1726,9 @@ input[type="radio"] .styled:checked+label::after {
      color: #0d0e0a;
 }
 .about {
-     background: url(../images/Gallery_images/vase_banner.jpg);
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
      padding: 70px 0px 10px 0px;
      cursor: move;
+     height: 900px;
 }
 
 .about:hover {
@@ -1753,6 +1751,7 @@ input[type="radio"] .styled:checked+label::after {
      font-size: 32px;
      line-height: 1.5;
      width: 680px;
+     height: 100%;
 }
 
 .about #about-box {
@@ -1821,8 +1820,8 @@ input[type="radio"] .styled:checked+label::after {
      margin: 10px auto;
      height: 6px;
      background: #fff;
-     width: 45%;
-     right: 295px;
+     width: 36%;
+     right: 405px;
 }
 .about-box .titlepage span {
      color: #fff;
