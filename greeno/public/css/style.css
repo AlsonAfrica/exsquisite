@@ -1726,6 +1726,9 @@ input[type="radio"] .styled:checked+label::after {
      color: #0d0e0a;
 }
 .about {
+background: transparent;
+box-shadow:  -20px 20px 60px #ffa9f9,
+             20px -20px 60px #ffa9f9;
      padding: 70px 0px 10px 0px;
      cursor: move;
      height: 900px;
