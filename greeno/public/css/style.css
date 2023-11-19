@@ -2084,18 +2084,54 @@ textarea {
      display: block;
      color: #fff;
 }
+
+.menu-bottom .link {
+     margin: 0 auto;
+     text-align: center;
+     height: 6.25rem;
+}
+
+ul.link {
+     width: 210px;
+  height: 254px;
+  border-radius: 4px;
+  background: #212121;
+  display: flex;
+  gap: 5px;
+  padding: .4em;
+  justify-content: center;
+  align-items: center;
+}
+
 ul.link li {
-     display: inline-block;
-     padding: 8px 15px;
-     padding-bottom: 8px;
-     padding-bottom: 45px;
+     height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: #212121;
+  border: 1px solid #ffa9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.link li:hover {
+     flex: 4;
 }
 ul.link li a {
-     color: #fff;
-     font-size: 17px;
+     min-width: 14em;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #ffa9f9;
+  letter-spacing: .1em;
 }
-ul.link li a:hover {
-     color: #308409;
+ul.link li:hover a {
+     transform: rotate(0);
 }
 .pdn-top-30 {
      padding-top: 35px;
@@ -2126,13 +2162,22 @@ ul.location_icon span {
 .copyright {
      background: #308409;
      padding: 20px 0px 20px 0;
+     margin-top: 60px;
+     height: 80px;
 }
+
+.copyright .container {
+     position: relative;
+  font-family: sans-serif;
+}
+
 .copyright p {
      color: #fff;
      font-size: 16px;
      text-align: center;
      text-align: center;
      margin: 0 auto;
+     padding: 0;
 }
 .copyright a {
      color: #fff;
