@@ -367,5 +367,23 @@ $(function () {
 		interval: 5000
 	});
 
+	$(".titlepage").resizable({
+		handles: "e, s, w, n",
+        minHeight: 100,
+        minWidth: 800,
+        maxHeight: 400,
+        maxWidth: 1000
+	});
 
+	$(".about-box").resizable({
+        handles: "e, s, se",
+        minHeight: 100,
+        minWidth: 100,
+        maxHeight: 400,
+        maxWidth: 1000
+    });
+
+	$(".about-box").draggable();
+
+	
 });
