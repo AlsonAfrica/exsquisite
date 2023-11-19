@@ -2062,6 +2062,7 @@ textarea {
      background-color: #212120;
      text-align: center;
 }
+
 .footer .headinga h3 {
      font-size: 38px;
      display: block;
@@ -2160,20 +2161,15 @@ ul.location_icon span {
      font-weight: 400;
 }
 .copyright {
-     background: #308409;
+     background: #ffa9f9;
      padding: 20px 0px 20px 0;
      margin-top: 60px;
      height: 80px;
 }
 
-.copyright .container {
-     position: relative;
-  font-family: sans-serif;
-}
-
 .copyright p {
-     color: #fff;
-     font-size: 16px;
+     color: #000;
+     font-size: 18px;
      text-align: center;
      text-align: center;
      margin: 0 auto;
