@@ -1633,7 +1633,7 @@ input[type="radio"] .styled:checked+label::after {
      margin-right: 10px;
 }
 .btn-primary:hover {
-     background-image: linear-gradient(to right,#fff7ad, #ffa9f9);
+     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
 }
 .img-box figure {
      margin: 0;
