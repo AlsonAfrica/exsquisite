@@ -1766,7 +1766,7 @@ box-shadow:  -20px 20px 60px #ffa9f9,
      text-align: center;
      /*border: 2px solid red;*/
      margin: 20px;
-     padding: 20px;
+     padding: 20px 40px;
      position: relative;
      display: flex;
      align-items: center;
@@ -1784,6 +1784,10 @@ box-shadow:  -20px 20px 60px #ffa9f9,
 .about #about-box {
      width: 300px;
      margin-left: 200px;
+}
+
+.about #about-box .white-bg {
+     margin: 0 auto;
 }
 
 .about .about-box::before {
