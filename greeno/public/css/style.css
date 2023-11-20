@@ -221,7 +221,7 @@ button {
 }
 
 .theme_bg {
-     background: #38c8a8;
+     background: #9eb7b1;
 }
 
 .margin_top_30 {
@@ -470,6 +470,7 @@ a.readmore_bt {
 nav.main-menu {
      float: right;
      margin-left: 0;
+     
 }
 
 ul.top_icon {
@@ -496,7 +497,7 @@ ul.top_icon li a {
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-     color: #098459;
+     color: #720984;
      align-items: center;
      justify-content: center;
      align-items: center;
@@ -508,7 +509,8 @@ ul.top_icon li a {
 }
 
 .menu-area-main li.active a {
-     color: #098459;
+     color: #840976;
+     
 }
 
 .right_cart_section {
@@ -1631,7 +1633,7 @@ input[type="radio"] .styled:checked+label::after {
      margin-right: 10px;
 }
 .btn-primary:hover {
-     background: #308409;
+     background-image: linear-gradient(to right,#fff7ad, #ffa9f9);
 }
 .img-box figure {
      margin: 0;
@@ -1663,9 +1665,11 @@ input[type="radio"] .styled:checked+label::after {
      padding: 0px 0px 36px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #050303;
+     font-family:cursive;
+     color: #05030545;
      line-height: 50px;
      position: relative;
+     text-align:center;
      margin-bottom: 20px;
 }
 .titlepage h2::after {
@@ -1977,7 +1981,7 @@ img.zoom {
      color: #fff;
 }
 .contact {
-     background: #fff;
+     background-image: linear-gradient(to top#fff7ad,#ffa9f9);
      padding-top: 90px;
 }
 .paddimg-right {
@@ -2002,23 +2006,29 @@ img.zoom {
 .contact .titlepage h2::after {
      content: "";
      position: absolute;
-     left: -831px;
+     left: 10px;
      top: 70%;
      margin: 10px auto;
      width: 25%;
      height: 6px;
-     background: #308409;
+     background: #840963;
      right: 0;
 }
 .map_section figure {
      margin: 0px;
 }
 form {
-     background: #308409;
+     background: #840972;
      padding: 35px 30px;
+     justify-content: right;
+     width: 100%;
+     display: inline-block;
+     
+     
 }
 .map_section figure img {
-     width: 100%;
+     max-width: 300%;
+     
 }
 .Nursery-img {
      position: relative;
@@ -2057,6 +2067,7 @@ form a {
      justify-content: center;
      width: 150px;
      flex-wrap: wrap;
+     
 }
 form a:hover {
      color: #fff;
@@ -2254,7 +2265,7 @@ ul.location_icon span {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-     background: #308409;
+     background: #dd6ebe;
      color: #fff;
 }
 #main_slider a.carousel-control-prev {
@@ -2288,4 +2299,17 @@ h4::after {
      width: 50%;
      height: 6px;
      
+}
+.map_header{
+     text-align: center;
+     padding: 0px 0px 36px 0px;
+     font-size: 50px;
+     font-weight: bold;
+     font-family:cursive;
+     color: #05030545;
+     line-height: 50px;
+     position: relative;
+     text-align:right;
+     margin-bottom: 20px;
+     justify-content: left;
 }
