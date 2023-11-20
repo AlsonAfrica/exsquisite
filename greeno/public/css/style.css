@@ -2318,31 +2318,9 @@ h4::after {
      height: 6px;
      
 }
-/*.map_section{
-     display: inline-block;
-     text-align: center;
-     padding: 0px 0px 36px 0px;
-     font-size: 50px;
-     font-weight: bold;
-     font-family:cursive;
-     color: #05030545;
-     line-height: 50px;
-     position: relative;
-     text-align:right;
-     margin-bottom: 20px;
-     justify-content: left;
-}*/
 
 .map_section {
      display: flex;
      width: 800px;
-     margin: -365px auto 50px 400px;
-}
-
-.mapouter {
-     width: 720px;
-}
-
-.gmap_canvas {
-     width: 720px;
+     margin: -363px auto 50px 400px;
 }
