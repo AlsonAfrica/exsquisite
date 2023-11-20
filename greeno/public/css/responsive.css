@@ -8,6 +8,29 @@
     .header-search {
         padding: 15px 0px;
     }
+    
+    .carousel-caption h1 {
+        margin-top: -140px;
+        padding-top: 0;
+    }
+
+    .about {
+        height: 1200px;
+    }
+
+    #about .about-box {
+        margin: 0 auto;
+    }
+
+    .about #card {
+        display: block;
+        margin-left: -200px;
+        margin-top: 720px;
+    }
+
+    .about #card .white-bg span {
+        font-size: 16px;
+    }
 }
 
 
@@ -132,130 +155,185 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    
-    .titlepage h2::after {width: 58%;}
+    .titlepage h2::after {
+        width: 58%;
+    }
+
     .about-box .titlepage h2::after {
         width: 52%;
-right: -221px;
+        right: -221px;
     }
-    .Nursery-img .text-box h3 {padding: 111px 50px;}
+
+    .Nursery-img .text-box h3 {
+        padding: 111px 50px;
+    }
+
     .contact .titlepage h2::after {
-    left: -650px;
-width: 30%;
-   }
+        left: -650px;
+        width: 30%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .main-menu ul > li a {padding: 8px 12px ; }
+    .main-menu ul > li a {
+        padding: 8px 12px;
+    }
 
     .banner-main .carousel-caption h1 {
-
         font-size: 36px;
-
-padding-top: 30px;
+        padding-top: 30px;
     }
-    .banner-main .carousel-caption p {
 
+    .banner-main .carousel-caption p {
         margin-bottom: 7px;
     }
-    .btn-primary {max-width: 144px;}
-    .titlepage h2::after {width: 79%;}
-    .about-box .titlepage h2::after {width: 73%;
-right: -88px;}
-   .contact .titlepage h2::after {
-left: -403px;
-width: 41%;
-   }
-.paddimg-right {
-    padding-right: 15px;
-}
-.paddimg-left {
-    padding-left: 15px;
-}
+
+    .btn-primary {
+        max-width: 144px;
+    }
+
+    .titlepage h2::after {
+        width: 79%;
+    }
+
+    .about-box .titlepage h2::after {
+        width: 73%;
+        right: -88px;
+    }
+
+    .contact .titlepage h2::after {
+        left: -403px;
+        width: 41%;
+    }
+
+    .paddimg-right {
+        padding-right: 15px;
+    }
+
+    .paddimg-left {
+        padding-left: 15px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .last {display: none;}
-    .banner-main .carousel-caption {top: 0%;}
-.titlepage h2 {
-font-size: 42px; 
-}
-.titlepage h2::after {
-width: 88%;
-}
+    .last {
+        display: none;
+    }
 
-.about-box .titlepage h2::after {width: 45%;
-right: -281px;}
-.Nursery-img .text-box h3 {
-font-size: 36px;
-padding: 126px 40px;
-}
+    .banner-main .carousel-caption {
+        top: 0%;
+    }
 
+    .titlepage h2 {
+        font-size: 42px; 
+    }
 
-.contact .titlepage h2::after {
-    left: -234px;
-width: 55%;
-}
-    .img-box {display: none;}
+    .titlepage h2::after {
+        width: 88%;
+    }
+
+    .about-box .titlepage h2::after {
+        width: 45%;
+        right: -281px;
+    }
+
+    .Nursery-img .text-box h3 {
+        font-size: 36px;
+        padding: 126px 40px;
+    }
+
+    .contact .titlepage h2::after {
+        left: -234px;
+        width: 55%;
+    }
+
+    .img-box {
+        display: none;
+    }
 }
 
 
 @media (max-width: 575px) {
-    .last {display: none;}
-    .img-box {display: none;} 
-.header {padding-top: 30px;}
-.logo {float: inherit; padding-bottom: 15px; text-align: center;}
-.btn-primary {max-width: 126px;   margin-bottom: 25px;
-margin-right: 2px;
-font-size: 14px;}
-.banner-main .carousel-caption h1 {font-size: 30px;
-line-height: 38px;}
-.titlepage h2 {
-    font-size: 37px;
-}
-.titlepage h2::after {
-    width: 93%;
-}
+    .last {
+        display: none;
+    }
+
+    .img-box {
+        display: none;
+    }
+
+    .header {
+        padding-top: 30px;
+    }
+    
+    .logo {
+        float: inherit;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .btn-primary {
+        max-width: 126px;
+        margin-bottom: 25px;
+        margin-right: 2px;
+        font-size: 14px;
+    }
+
+    .banner-main .carousel-caption h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .titlepage h2 {
+        font-size: 37px;
+    }
+
+    .titlepage h2::after {
+        width: 93%;
+    }
+
     .about-box .titlepage h2::after {
         width: 238px;
         right: -50px;
     }
- .Gallery .titlepage h2 {
-    font-size: 47px;
- }
+
+    .Gallery .titlepage h2 {
+        font-size: 47px;
+    }
+
     .Gallery .titlepage h2::after {
         width: 89%;
     }
 
     .paddimg-right {
-    padding-right: 15px;
-}
-.paddimg-left {
-    padding-left: 15px;
-}
-.Nursery-img .text-box h3 {
-font-size: 23px;
-padding: 30px 14px;
+        padding-right: 15px;
+    }
 
-}
+    .paddimg-left {
+        padding-left: 15px;
+    }
 
-.contact .titlepage h2::after {
+    .Nursery-img .text-box h3 {
+        font-size: 23px;
+        padding: 30px 14px;
 
-    left: -8px;
-width: 281px;
-}
-.footer .headinga span {
-font-size: 16px;
+    }
 
-}
-.menu-bottom {
-    margin-bottom: 45px;
-}
-ul.link li {
+    .contact .titlepage h2::after {
+        left: -8px;
+        width: 281px;
+    }
 
-    padding: 8px 12px;
-    padding-bottom: 0px; 
-}
+    .footer .headinga span {
+        font-size: 16px;
+    }
 
+    .menu-bottom {
+        margin-bottom: 45px;
+    }
 
+    ul.link li {
+        padding: 8px 12px;
+        padding-bottom: 0px; 
+    }
 }

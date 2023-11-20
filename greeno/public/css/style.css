@@ -1875,7 +1875,9 @@ box-shadow:  -20px 20px 60px #ffa9f9,
      justify-content: center;
      align-items: center;
      justify-content: center;
-     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+     background: transparent;
+     box-shadow:  -20px 20px 60px #ffa9f9,
+                  20px -20px 60px #ffa9f9;
      overflow: hidden;
      border-radius: 10px;
      transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
@@ -2002,7 +2004,8 @@ img.zoom {
      background-image: linear-gradient(to top#fff7ad,#ffa9f9);
      margin-top: 80px;
      padding-top: 50px;
-     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+     box-shadow:  -20px 20px 60px #ffa9f9,
+                  20px -20px 60px #ffa9f9;
 }
 .paddimg-right {
      padding-right: 0px;
@@ -2112,6 +2115,8 @@ textarea {
 .footer {
      background-color: #212120;
      text-align: center;
+     box-shadow:  -20px 20px 60px #ffa9f9,
+                  20px -20px 60px #ffa9f9;
 }
 
 .footer .headinga h3 {
