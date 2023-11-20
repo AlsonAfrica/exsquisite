@@ -1831,7 +1831,7 @@ box-shadow:  -20px 20px 60px #ffa9f9,
      background: #fff;
      width: 100%;
      text-align: center;
-     padding: 20px 0px 15px 0px;
+     padding: 0 5px 15px;
      margin-bottom: 35px;
 }
 .about .about-box .white-bg span {
@@ -2318,7 +2318,8 @@ h4::after {
      height: 6px;
      
 }
-.map_header{
+/*.map_section{
+     display: inline-block;
      text-align: center;
      padding: 0px 0px 36px 0px;
      font-size: 50px;
@@ -2330,4 +2331,18 @@ h4::after {
      text-align:right;
      margin-bottom: 20px;
      justify-content: left;
+}*/
+
+.map_section {
+     display: flex;
+     width: 800px;
+     margin: -365px auto 50px 400px;
+}
+
+.mapouter {
+     width: 720px;
+}
+
+.gmap_canvas {
+     width: 720px;
 }
