@@ -5,6 +5,10 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     
+    .header .menu-area .menu-area-main {
+        gap: 0;
+    }
+
     .header-search {
         padding: 15px 0px;
     }
@@ -67,7 +71,7 @@
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 599px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
 
     .logo {
         text-align: center;
@@ -158,6 +162,18 @@
         padding: 30px 0px;
     }
 
+    #main_slider {
+        margin-top: -100px;
+    }
+
+    #main_slider .carousel-caption .btn {
+        margin-bottom: 80px;
+    }
+
+    #main_slider .img-box {
+        margin-top: 50px;
+    }
+
     .about {
         height: 1350px;
     }
@@ -168,9 +184,10 @@
     }
 
     .about-box .titlepage h2::after {
-        left: -280px;
-        right: 180px;
+        left: 0;
+        right: 0;
         top: 50%;
+        width: 50%;
     }
 
     .about-box .titlepage h2 {
@@ -182,8 +199,12 @@
         font-weight: 400;
     }
 
+    #plant .titlepage h2::after {
+        width: 100%;
+    }
+
     .contact .titlepage h2::after {
-        right: -250px;
+        width: 50%;
     }
 
     #contact .container form {
@@ -349,6 +370,7 @@
     }
 }
 
+/*
 @media (min-width: 768px) and (max-width: 991px) {
     .main-menu ul > li a {
         padding: 8px 12px;
@@ -512,3 +534,4 @@
         padding-bottom: 0px; 
     }
 }
+*/
