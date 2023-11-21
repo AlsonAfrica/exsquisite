@@ -289,7 +289,6 @@
     .map_section {
         margin: 0;
         width: 100%;
-        overflow-x: ;
     }
 
     .menu-bottom {
@@ -302,22 +301,51 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .titlepage h2::after {
-        width: 58%;
-    }
-
-    .about-box .titlepage h2::after {
-        width: 52%;
-        right: -221px;
-    }
 
     .Nursery-img .text-box h3 {
         padding: 111px 50px;
     }
 
+    .titlepage h2::after {
+        width: 58%;
+    }
+
+    #about .about-box {
+        margin: 0 auto;
+    }
+
+    .about #about-box {
+        margin-right: -10px;
+        width: 210px;
+    }
+
+    .about #card {
+        margin-right: -50px;
+    }
+
+    .about-box .titlepage h2::after {
+        width: 38%;
+        right: 0;
+        left: 0;
+    }
+
+    .about-box .titlepage span {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .about #about-box .white-bg span {
+        font-size: 13px;
+    }
+
     .contact .titlepage h2::after {
-        left: -650px;
+        left: 0;
         width: 30%;
+    }
+
+    .map_section {
+        width: 190%;
+        margin-left: 350px;
     }
 }
 
