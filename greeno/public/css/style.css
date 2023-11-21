@@ -2335,3 +2335,13 @@ h4::after {
 .map_section iframe {
      margin-bottom: 80px;
 }
+.form_button{
+     padding: 4px;
+     border-radius: 25px;
+     border: 2px soild white;
+     background-color:#840963;
+     color:white;
+}
+.form_button:hover{
+     background-color: black;
+}
