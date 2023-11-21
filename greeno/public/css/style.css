@@ -2345,3 +2345,21 @@ h4::after {
 .form_button:hover{
      background-color: black;
 }
+.Hours{
+     padding:0px;
+     background-color:none;
+     width: 300px;
+     height: 150px;
+     text-align:center;
+     margin: auto; 
+     
+}
+.Hours p{
+     padding:0;
+     font-size:medium;
+}
+.Hours h3{
+     font-weight: bold;
+     color:white;
+     text-decoration: underline;
+}
