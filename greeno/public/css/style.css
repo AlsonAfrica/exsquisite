@@ -1792,14 +1792,14 @@ box-shadow:  -20px 20px 60px #ffa9f9,
 
 .about .about-box::before {
      content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 5px;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-  z-index: -1;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 5px;
+     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+     z-index: -1;
+     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 .about .about-box:hover::before {
      height: 100%;
@@ -1860,7 +1860,7 @@ box-shadow:  -20px 20px 60px #ffa9f9,
      margin: 10px auto;
      height: 6px;
      background: #fff;
-     width: 34%;
+     width: 80%;
      right: 0;
 }
 .about-box .titlepage span {

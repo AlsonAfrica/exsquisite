@@ -15,17 +15,26 @@
     }
 
     .about {
-        height: 1200px;
+        height: 1300px;
     }
 
     #about .about-box {
         margin: 0 auto;
     }
 
+    .about-box .titlepage h2::after {
+        left: -80px;
+    }
+
+    .about-box .titlepage span {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
     .about #card {
         display: block;
         margin-left: -180px;
-        margin-top: 720px;
+        margin-top: 780px;
     }
 
     .about .titlepage span {
@@ -35,6 +44,24 @@
     .about #card .white-bg span {
         font-size: 16px;
     }
+
+    #plant {
+        height: 3000px;
+    }
+
+    .contact .titlepage h2::after {
+        right: -400px;
+    }
+
+    #contact .container form {
+        margin-bottom: 20px;
+    }
+
+    .map_section {
+        margin: 0;
+        width: 100%;
+    }
+    
 }
 
 
