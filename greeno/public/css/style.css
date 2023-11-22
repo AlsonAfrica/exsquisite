@@ -462,9 +462,10 @@ a.readmore_bt {
 }
      
 .logo img{
-     border-radius: 50%;
-     top: -5px;
-     left: -5px;
+     width: 200px;
+     object-fit: cover;
+     margin-top: 30px;
+     margin-left: 10px;
 }
 
 nav.main-menu {
@@ -1609,11 +1610,17 @@ input[type="radio"] .styled:checked+label::after {
      position: relative;
     
 }
+
 .banner-main .carousel-caption h1 {
-     font-size: 46px;
+     font-size: 2.5rem;
      line-height: 55px;
      font-weight: bold;
      color:#fca5a5;
+     margin-top: -80px;
+}
+
+.banner-main .carousel-caption h1 .color {
+     font-size: 2.5rem;
 }
 
 .banner-main .carousel-caption p {
@@ -1641,16 +1648,16 @@ input[type="radio"] .styled:checked+label::after {
 }
 .img-box figure img {
      box-shadow: #308409 0px 0px 0px 0px;
-     border-radius: 10% 20%;
-     width: 100%;
-     align-items: center;
-     justify-content: center;
+     width: 450px;
      align-items: center;
      justify-content: center;
      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
      overflow: hidden;
      border-radius: 10px;
      transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+     height: 400px;
+     object-fit: cover;
+     margin-left: 3.4rem;
 }
 .plants {
      padding: 90px 0px;
@@ -1750,11 +1757,9 @@ input[type="radio"] .styled:checked+label::after {
      color: #0d0e0a;
 }
 .about {
-background: transparent;
-box-shadow:  -20px 20px 60px #ffa9f9,
-             20px -20px 60px #ffa9f9;
+     background: transparent;
+     box-shadow: -20px 20px 60px #ffa9f9, 20px -20px 60px #ffa9f9;
      padding: 70px 0px 10px 0px;
-     cursor: move;
      height: 900px;
 }
 
