@@ -1804,7 +1804,7 @@ input[type="radio"] .styled:checked+label::after {
      height: 5px;
      background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
      z-index: -1;
-     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+     transition: all 3s cubic-bezier(0.23, 1, 0.320, 1);
 }
 .about .about-box:hover::before {
      height: 100%;
