@@ -2335,15 +2335,18 @@ h4::after {
      display: flex;
      width: 800px;
      margin: -363px auto 50px 400px;
+     
+     
 }
 
 .map_section iframe {
      margin-bottom: 80px;
+     
 }
 .form_button{
      padding: 4px;
      border-radius: 25px;
-     border: 2px soild white;
+     border: 2px solid white;
      background-color:#840963;
      color:white;
 }
@@ -2372,7 +2375,7 @@ h4::after {
 #upBtn {
      display: none; 
      position: fixed; 
-     bottom: 5px; 
+     bottom: -5px; 
      right: 30px; 
      z-index: 99; 
      border: none; 
@@ -2385,6 +2388,11 @@ h4::after {
      font-size: 18px; 
    }
    
-   #myBtn:hover {
-     background-color: #555; 
+   #upBtn:hover {
+     background-color: rgb(113, 110, 110); 
    }
+   .number{
+     color:white
+   }
+   
+
