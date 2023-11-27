@@ -453,13 +453,12 @@ a.readmore_bt {
      background-size: 100% 100%;
      background-repeat: no-repeat;
      min-height: 110px;
-     padding-top: 45px
+     padding-top: 20px
 }
 
 .header.scrolled {
      background: linear-gradient(-45deg, #ffa9f9 0%, #fff7ad 100%);
-     opacity: 1;
-     padding-top: 20px;
+     opacity: 0.98;
 }
 
 .logo {
