@@ -2016,7 +2016,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .Gallery .Gallery-box figure {
-     margin: 0px;
+     margin: 0;
 }
 
 .Gallery .Gallery-box figure img {
@@ -2139,10 +2139,14 @@ img.zoom {
 
 .contact {
      background-image: linear-gradient(to top#fff7ad, #ffa9f9);
-     margin-top: 80px;
+     margin-top: 0px;
      padding-top: 50px;
      box-shadow: -20px 20px 60px #ffa9f9,
           20px -20px 60px #ffa9f9;
+}
+
+#contact .titlepage h2 {
+     margin-top: 40px;
 }
 
 .paddimg-right {
