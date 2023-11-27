@@ -366,37 +366,30 @@ $(function () {
 	$('#blogCarousel').carousel({
 		interval: 5000
 	});
-});
 
-// Up-Botton:
-let mybutton = document.getElementById("upBtn");
+    // Up Button
+	let mybutton = $("#upBtn");
 
+    $(window).on("scroll", function() {
+		if ($(document).scrollTop() > 20 || $(window).scrollTop() > 20) {
+          mybutton.css("display", "block");
+        } else {
+          mybutton.css("display", "none");
+        }
+    });
 
-window.onscroll = function() {scrollFunction()};
+    mybutton.on("click", function() {
+		$("html, body").animate({ scrollTop: 0 }, "slow");
+    });
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+    // Header Scroll
+	let header = $("#myHeader");
 
-function topFunction() {
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0; 
-}
-
-var header = document.getElementById("myHeader");
-
-// Listen for the scroll event
-window.addEventListener("scroll", function() {
-	// Check if the scroll position is greater than 0
-	if (window.scrollY > 0) {
-		// Add the 'scrolled' class to change the background color
-        header.classList.add("scrolled");
-    } else {
-        // Remove the 'scrolled' class if the scroll position is back to the top
-        header.classList.remove("scrolled");
-	}
+    $(window).on("scroll", function() {
+		if ($(window).scrollTop() > 0) {
+          header.addClass("scrolled");
+        } else {
+          header.removeClass("scrolled");
+        }
+    });
 });
