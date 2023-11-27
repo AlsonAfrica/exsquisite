@@ -386,3 +386,17 @@ function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0; 
 }
+
+var header = document.getElementById("myHeader");
+
+// Listen for the scroll event
+window.addEventListener("scroll", function() {
+	// Check if the scroll position is greater than 0
+	if (window.scrollY > 0) {
+		// Add the 'scrolled' class to change the background color
+        header.classList.add("scrolled");
+    } else {
+        // Remove the 'scrolled' class if the scroll position is back to the top
+        header.classList.remove("scrolled");
+	}
+});
