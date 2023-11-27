@@ -1759,6 +1759,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .plants {
      padding: 90px 0px;
+     height: 2200px;
 }
 
 .titlepage {
@@ -1863,7 +1864,7 @@ input[type="radio"] .styled:checked+label::after {
      background: transparent;
      box-shadow: -20px 20px 60px #ffa9f9, 20px -20px 60px #ffa9f9;
      padding: 70px 0px 10px 0px;
-     height: 900px;
+     height: 730px;
 }
 
 .about:hover {
@@ -1954,6 +1955,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .about-box .titlepage {
      text-align: justify;
+     height: 495px;
 }
 
 .about-box .titlepage h2 {
@@ -1974,7 +1976,7 @@ input[type="radio"] .styled:checked+label::after {
      margin: 10px auto;
      height: 6px;
      background: #fff;
-     width: 80%;
+     width: 40%;
      right: 0;
 }
 

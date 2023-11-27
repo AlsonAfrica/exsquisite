@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------
-    File Name: custom.js
+	File Name: custom.js
 ---------------------------------------------------------------------*/
 
 $(function () {
@@ -55,7 +55,7 @@ $(function () {
 		cursorcolor: "#9b9b9c",
 	});
 
-	
+
 	/* NiceSelect
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
@@ -367,29 +367,29 @@ $(function () {
 		interval: 5000
 	});
 
-    // Up Button
+	// Up Button
 	let mybutton = $("#upBtn");
 
-    $(window).on("scroll", function() {
+	$(window).on("scroll", function () {
 		if ($(document).scrollTop() > 20 || $(window).scrollTop() > 20) {
-          mybutton.css("display", "block");
-        } else {
-          mybutton.css("display", "none");
-        }
-    });
+			mybutton.css("display", "block");
+		} else {
+			mybutton.css("display", "none");
+		}
+	});
 
-    mybutton.on("click", function() {
+	mybutton.on("click", function () {
 		$("html, body").animate({ scrollTop: 0 }, "slow");
-    });
+	});
 
-    // Header Scroll
+	// Header Scroll
 	let header = $("#myHeader");
 
-    $(window).on("scroll", function() {
+	$(window).on("scroll", function () {
 		if ($(window).scrollTop() > 0) {
-          header.addClass("scrolled");
-        } else {
-          header.removeClass("scrolled");
-        }
-    });
+			header.addClass("scrolled");
+		} else {
+			header.removeClass("scrolled");
+		}
+	});
 });
