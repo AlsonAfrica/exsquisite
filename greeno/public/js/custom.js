@@ -392,4 +392,13 @@ $(function () {
 			header.removeClass("scrolled");
 		}
 	});
+
+	$(".plants-box").hover(
+		function () {
+			$(".plants-box").not(this).css("filter", "blur(4px)");
+		},
+		function () {
+			$(".plants-box").css("filter", "blur(0)");
+		}
+	);
 });
