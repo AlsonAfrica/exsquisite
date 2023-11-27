@@ -1820,7 +1820,6 @@ input[type="radio"] .styled:checked+label::after {
      border-radius: 10px;
      transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
      height: 360px;
-     filter: blur(4px);
 }
 
 .plants .plants-box:hover {
