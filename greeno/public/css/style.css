@@ -2198,11 +2198,6 @@ form {
 
 }
 
-.map_section figure img {
-     max-width: 300%;
-
-}
-
 .Nursery-img {
      position: relative;
 }
@@ -2263,6 +2258,18 @@ form a:hover {
 .form-control:focus {
      box-shadow: none;
      border: #ddd solid 1px;
+}
+
+.form_button {
+     padding: 4px;
+     border-radius: 25px;
+     border: 2px solid white;
+     background-color: #840963;
+     color: white;
+}
+
+.form_button:hover {
+     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
 }
 
 textarea {
@@ -2520,27 +2527,16 @@ h4::after {
      display: flex;
      width: 800px;
      margin: -363px auto 50px 400px;
-
-
 }
 
 .map_section iframe {
      margin-bottom: 80px;
      margin-top: -38px;
      height: 400px;
-
 }
 
-.form_button {
-     padding: 4px;
-     border-radius: 25px;
-     border: 2px solid white;
-     background-color: #840963;
-     color: white;
-}
-
-.form_button:hover {
-     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+.map_section figure img {
+     max-width: 300%;
 }
 
 .Hours {
