@@ -152,7 +152,7 @@
     }
 }
 
-@media only screen and (min-width: 281px) and (max-width: 352px) {
+@media only screen and (min-width: 281px) and (max-width: 288px) {
 
     /* root content */
 
@@ -208,16 +208,16 @@
     /* about */
 
     .about {
-        height: 1600px;
+        height: 2400px;
     }
 
     .about .about-box {
         width: fit-content;
-        height: 1430px;
+        height: 2230px;
     }
 
     .about .about-box .titlepage h2 {
-        margin-top: -410px;
+        margin-top: -820px;
     }
 
     .about .about-box .titlepage h2::after {
@@ -265,7 +265,7 @@
     /* gallery */
 
     #gallery {
-        margin-top: 3240px;
+        margin-top: 3340px;
     }
 
     #gallery .titlepage h2::after {
@@ -276,7 +276,12 @@
     /* footer */
 
     #contact.footer {
-        height: 800px;
+        height: 850px;
+    }
+
+    #contact.footer .Hours p,
+    #contact.footer .Hours h3 {
+        margin-right: 45px;
     }
 
     ul.link {
@@ -304,7 +309,7 @@
     }
 }
 
-@media only screen and (min-width: 353px) and (max-width: 359px) {
+@media only screen and (min-width: 289px) and (max-width: 288px) @media only screen and (min-width: 353px) and (max-width: 359px) {
 
     /* root content */
 
