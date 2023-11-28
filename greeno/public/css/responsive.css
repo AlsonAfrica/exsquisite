@@ -209,16 +209,20 @@
     /* about */
 
     .about {
-        height: 1900px;
+        height: 1600px;
     }
 
     .about .about-box {
         width: fit-content;
-        height: 1750px;
+        height: 1430px;
     }
 
     .about .about-box .titlepage h2 {
-        margin-top: -570px;
+        margin-top: -410px;
+    }
+
+    .about .about-box .titlepage h2::after {
+        width: 100%;
     }
 
     .about .about-box .titlepage span {
