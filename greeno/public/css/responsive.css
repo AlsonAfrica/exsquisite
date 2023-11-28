@@ -2,7 +2,7 @@
 
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
-
+/*
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     
     .header .menu-area .menu-area-main {
@@ -74,7 +74,7 @@
 
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
-
+/*
 @media only screen and (min-width: 600px) and (max-width: 767px) {
 
     .logo {
@@ -223,7 +223,7 @@
 
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
-
+/*
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 
     .cart-content-right {
@@ -289,6 +289,7 @@
         display: none;
     }
 */
+/*
     #plant {
         margin-top: 60px;
     }
@@ -539,3 +540,59 @@
     }
 }
 */
+
+/*------------------------------------------------------------------- Mobile Responsiveness ---------------------------------------------------------------------*/
+
+@media only screen and (max-width: 280px) {
+
+    /* root content */
+
+    html {
+        overflow-x: hidden;
+    }
+
+    /* main layout */
+
+    body {
+        overflow-y: hidden;
+    }
+
+    /* loader */
+
+    .loader_bg .loader img {
+        margin-left: 55px;
+    }
+
+    /* header */
+
+    .header {
+        width: 100%;
+    }
+
+    .header .logo a img {
+        margin-top: 60px;
+        height: 80px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .header .menu-area {
+        margin-top: -10px;
+    }
+
+    /* hero */
+
+    #main_slider .carousel-caption h1 {
+        margin-top: -140px;
+    }
+
+    #main_slider .carousel-caption a[role*="button"] {
+        display: none;
+    }
+
+    /* about */
+
+    .about {
+        display: none;
+    }
+}
