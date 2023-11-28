@@ -590,6 +590,12 @@
         display: none;
     }
 
+    #main_slider .img-box figure img {
+        margin: 50px 0 auto;
+        object-fit: cover;
+        height: fit-content;
+    }
+
     /* about */
 
     .about {
