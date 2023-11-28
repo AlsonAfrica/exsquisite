@@ -2625,3 +2625,163 @@
         height: 150px;
     }
 }
+
+@media only screen and (min-width: 640px) and (max-width: 644px) {
+
+    /* root content */
+
+    html {
+        overflow-x: hidden;
+    }
+
+    /* main layout */
+
+    body {
+        overflow-y: hidden;
+    }
+
+    /* loader */
+
+    .loader_bg .loader img {
+        margin-left: 55px;
+    }
+
+    /* header */
+
+    .header {
+        width: 100%;
+    }
+
+    .header .logo a img {
+        margin-top: 35px;
+        margin-left: 15px;
+        height: 180px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .header .menu-area {
+        margin-top: 10px;
+        margin-bottom: 80px;
+    }
+
+    /* hero */
+
+    #main_slider .carousel-caption h1 {
+        margin-top: -80px;
+    }
+
+    #main_slider .carousel-caption a[role*="button"] {
+        display: none;
+    }
+
+    #main_slider .img-box figure img {
+        margin: 50px 0 auto;
+        object-fit: cover;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    /* about */
+
+    .about {
+        height: 960px;
+    }
+
+    .about .about-box {
+        width: fit-content;
+        height: 780px;
+    }
+
+    .about .about-box .titlepage h2 {
+        margin-top: -100px;
+    }
+
+    .about .about-box .titlepage h2::after {
+        width: 60%;
+    }
+
+    .about .about-box .titlepage span {
+        text-align: justify;
+    }
+
+    #about-box {
+        display: none;
+    }
+
+    /* plants */
+
+    .plants .titlepage h2 {
+        margin-top: -40px;
+    }
+
+    .plants .titlepage h2::after {
+        top: 70%;
+        width: 80%;
+    }
+
+    .plants .titlepage span {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .plants h4 {
+        font-size: 2rem;
+    }
+
+    .plants .plants-box:hover {
+        transform: none;
+    }
+
+    .plants .plants-box h3 {
+        font-size: 1.75rem;
+    }
+
+    #plant #h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /* gallery */
+
+    #gallery {
+        margin-top: 3080px;
+    }
+
+    #gallery .titlepage h2::after {
+        top: 80%;
+        width: 55%;
+    }
+
+    /* footer */
+
+    #contact.footer {
+        height: 780px;
+    }
+
+    ul.link {
+        display: block;
+        padding-top: 10px;
+        height: 10px;
+    }
+
+    ul.link li {
+        display: block;
+        height: auto;
+    }
+
+    ul.link li:hover {
+        flex: none;
+    }
+
+    ul.link li:hover a {
+        transform: none;
+    }
+
+    .copyright {
+        margin-top: 100px;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 645px) and (max-width: 711px) {}
