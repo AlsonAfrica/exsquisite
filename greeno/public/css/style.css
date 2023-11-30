@@ -461,9 +461,9 @@ a.readmore_bt {
 }
 
 .logo img {
-     width: 200px;
+     width: 160px;
      object-fit: cover;
-     margin-top: 30px;
+     margin-top: 40px;
      margin-left: 10px;
 }
 
@@ -1992,6 +1992,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .Gallery {
      margin-top: 50px;
+     height: 750px;
      align-items: center;
      justify-content: center;
      align-items: center;
@@ -2283,6 +2284,7 @@ textarea {
      text-align: center;
      box-shadow: -20px 20px 60px #ffa9f9,
           20px -20px 60px #ffa9f9;
+     margin-top: 0;
 }
 
 .footer .headinga h3 {
