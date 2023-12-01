@@ -2284,32 +2284,36 @@ textarea {
      text-align: center;
      box-shadow: -20px 20px 60px #ffa9f9,
           20px -20px 60px #ffa9f9;
-     margin-top: 0;
+     margin-top:200px;
+     margin-bottom:10px;
+     
 }
 
 .footer .headinga h3 {
      font-size: 38px;
-     display: block;
-     color: #fff;
-     max-width: 160px;
-     padding-bottom: 1px;
-     border-bottom: #fff solid 1px;
+     display: flex;
+     color: #ffff;
+     border-bottom: #c91da4 solid 1px;
      text-align: center;
      margin: 0 auto;
+     text-align:left;
+  
 }
 
 .footer .headinga span {
      font-size: 17px;
-     display: block;
+     display: flex;
      color: #fff;
      padding-top: 10px;
      padding-bottom: 5px;
+     justify-content:left;
 }
 
 .footer .headinga p {
      font-size: 17px;
      display: block;
      color: #fff;
+
 }
 
 .menu-bottom .link {
@@ -2548,6 +2552,7 @@ h4::after {
      height: 150px;
      text-align: center;
      margin: auto;
+     
 
 }
 
@@ -2560,6 +2565,10 @@ h4::after {
      font-weight: bold;
      color: white;
      text-decoration: underline;
+     font-size: 20px;
+}
+.Hours p:hover{
+     color: white;
 }
 
 #upBtn {
