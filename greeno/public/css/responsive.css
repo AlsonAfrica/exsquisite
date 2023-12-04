@@ -281,7 +281,7 @@
     #contact.footer {
         height: 850px;
     }
-
+  
     #contact.footer .Hours p,
     #contact.footer .Hours h3 {
         margin-right: 45px;
@@ -2003,7 +2003,8 @@
     /* footer */
 
     #contact.footer {
-        height: 800px;
+        height: 850px;
+        margin-top:10px;
     }
 
     ul.link {
@@ -2157,7 +2158,8 @@
     /* footer */
 
     #contact.footer {
-        height: 800px;
+        height: 850px;
+        margin-top:20px;
     }
 
     ul.link {
@@ -3308,7 +3310,8 @@
     /* footer */
 
     #contact.footer {
-        height: 700px;
+        height: 750px;
+        margin-top:20px;
     }
 
     ul.link {
@@ -3333,7 +3336,7 @@
     }
 
     .copyright {
-        margin-top: 120px;
+        margin-top: 100px;
     }
 }
 
