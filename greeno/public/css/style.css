@@ -529,7 +529,7 @@ ul.top_icon li a {
      padding: 18px 0 0;
 }
 
-.main-menu ul>li nth:child(5) a {
+.main-menu ul>li:nth-child(5) a {
      padding-right: 0px;
 }
 
@@ -1807,6 +1807,10 @@ input[type="radio"] .styled:checked+label::after {
      color: transparent;
 }
 
+#plant #h4 {
+     margin-top: 30px;
+}
+
 .plants .plants-box {
      position: relative;
      background-color: #fff;
@@ -1991,8 +1995,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .Gallery {
-     margin-top: 50px;
-     height: 750px;
+     margin-top: 0px;
+     height: 720px;
      align-items: center;
      justify-content: center;
      align-items: center;
@@ -2005,8 +2009,12 @@ input[type="radio"] .styled:checked+label::after {
      transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
+#gallery.Gallery {
+     height: 950px;
+}
+
 .Gallery .container .titlepage h2 {
-     padding-top: 40px;
+     padding-top: 80px;
 }
 
 .Gallery .Gallery-box {
@@ -2117,6 +2125,12 @@ img.zoom {
      background: #46254a;
 }
 
+.Gallery .titlepage p {
+     margin-top: 0;
+     margin-bottom: 0;
+     padding: 0;
+}
+
 .Gallery .Gallery-box:hover .hoverle {
      position: absolute;
      top: 0;
@@ -2139,7 +2153,6 @@ img.zoom {
 }
 
 .contact {
-     background-image: linear-gradient(to top#fff7ad, #ffa9f9);
      margin-top: 0px;
      padding-top: 50px;
      box-shadow: -20px 20px 60px #ffa9f9,
@@ -2284,8 +2297,8 @@ textarea {
      text-align: center;
      box-shadow: -20px 20px 60px #ffa9f9,
           20px -20px 60px #ffa9f9;
-     margin-top:100px;
-     margin-bottom:10px;
+     margin-top: 0;
+     margin-bottom: 10px;
      
 }
 
@@ -2297,6 +2310,7 @@ textarea {
      border-bottom: #c91da4 solid 1px;
      text-align: center;
      margin: 0 auto;
+     padding-top: 30px;
      text-align:left;
   
 }
@@ -2308,6 +2322,10 @@ textarea {
      padding-top: 10px;
      padding-bottom: 5px;
      justify-content:left;
+}
+
+.footer .headinga span .bi {
+     margin-right: 5px;
 }
 
 .footer .headinga p {
@@ -2402,8 +2420,8 @@ ul.location_icon span {
 .copyright {
      background: #ffa9f9;
      padding: 20px 0px 20px 0;
-     margin-top: 60px;
-     height: 80px;
+     margin-top: 70px;
+     height: 60px;
 }
 
 .copyright p {
@@ -2412,7 +2430,7 @@ ul.location_icon span {
      text-align: center;
      text-align: center;
      margin: 0 auto;
-     padding: 0;
+     padding: 5px;
 }
 
 .copyright a {
@@ -2548,7 +2566,6 @@ h4::after {
 
 .Hours {
      padding: 0px;
-     background-color: none;
      width: 300px;
      height: 150px;
      text-align: center;

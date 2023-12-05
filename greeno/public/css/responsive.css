@@ -107,9 +107,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3380px;
-        height: 1320px;
+        height: 1700px;
     }
 
     #gallery .titlepage h2::after {
@@ -120,7 +120,8 @@
     /* footer */
 
     #contact.footer {
-        height: 850px;
+        height: 950px;
+        margin-top: 0;
     }
 
     #contact.footer .Hours p,
@@ -266,9 +267,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3340px;
-        height: 1330px;
+        height: 1730px;
     }
 
     #gallery .titlepage h2::after {
@@ -279,7 +280,7 @@
     /* footer */
 
     #contact.footer {
-        height: 860px;
+        height: 960px;
     }
 
     #contact.footer .Hours p,
@@ -426,9 +427,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3340px;
-        height: 1350px;
+        height: 1700px;
     }
 
     #gallery .titlepage h2::after {
@@ -439,7 +440,7 @@
     /* footer */
 
     #contact.footer {
-        height: 850px;
+        height: 950px;
     }
 
     #contact.footer .Hours p,
@@ -586,9 +587,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3340px;
-        height: 1330px;
+        height: 1720px;
     }
 
     #gallery .titlepage h2::after {
@@ -599,7 +600,7 @@
     /* footer */
 
     #contact.footer {
-        height: 850px;
+        height: 950px;
     }
 
     #contact.footer .Hours p,
@@ -746,9 +747,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3260px;
-        height: 1350px;
+        height: 1720px;
     }
 
     #gallery .titlepage h2::after {
@@ -759,7 +760,7 @@
     /* footer */
 
     #contact.footer {
-        height: 850px;
+        height: 950px;
     }
 
     #contact.footer .Hours p,
@@ -906,9 +907,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3260px;
-        height: 1400px;
+        height: 1780px;
     }
 
     #gallery .titlepage h2::after {
@@ -919,7 +920,7 @@
     /* footer */
 
     #contact.footer {
-        height: 820px;
+        height: 920px;
     }
 
     #contact.footer .Hours p,
@@ -1066,9 +1067,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3240px;
-        height: 1440px;
+        height: 1840px;
     }
 
     #gallery .titlepage h2::after {
@@ -1079,7 +1080,7 @@
     /* footer */
 
     #contact.footer {
-        height: 800px;
+        height: 920px;
     }
 
     #contact.footer .Hours p,
@@ -1226,9 +1227,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3240px;
-        height: 1480px;
+        height: 1850px;
     }
 
     #gallery .titlepage h2::after {
@@ -1239,7 +1240,7 @@
     /* footer */
 
     #contact.footer {
-        height: 800px;
+        height: 900px;
     }
 
     ul.link {
@@ -1381,9 +1382,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3240px;
-        height: 1500px;
+        height: 1850px;
     }
 
     #gallery .titlepage h2::after {
@@ -1394,7 +1395,7 @@
     /* footer */
 
     #contact.footer {
-        height: 800px;
+        height: 900px;
     }
 
     ul.link {
@@ -1536,9 +1537,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3240px;
-        height: 1540px;
+        height: 1900px;
     }
 
     #gallery .titlepage h2::after {
@@ -1549,7 +1550,7 @@
     /* footer */
 
     #contact.footer {
-        height: 800px;
+        height: 900px;
     }
 
     ul.link {
@@ -1691,9 +1692,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3200px;
-        height: 1600px;
+        height: 1900px;
     }
 
     #gallery .titlepage h2::after {
@@ -1704,7 +1705,7 @@
     /* footer */
 
     #contact.footer {
-        height: 760px;
+        height: 900px;
     }
 
     ul.link {
@@ -1836,9 +1837,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3250px;
-        height: 1620px;
+        height: 1960px;
     }
 
     #gallery .titlepage h2::after {
@@ -1849,7 +1850,7 @@
     /* footer */
 
     #contact.footer {
-        height: 814px;
+        height: 900px;
     }
 
     ul.link {
@@ -1990,9 +1991,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3260px;
-        height: 1680px;
+        height: 2080px;
     }
 
     #gallery .titlepage h2::after {
@@ -2003,7 +2004,7 @@
     /* footer */
 
     #contact.footer {
-        height: 830px;
+        height: 900px;
     }
 
     ul.link {
@@ -2144,9 +2145,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3200px;
-        height: 1840px;
+        height: 2300px;
     }
 
     #gallery .titlepage h2::after {
@@ -2157,7 +2158,7 @@
     /* footer */
 
     #contact.footer {
-        height: 814px;
+        height: 900px;
     }
 
     ul.link {
@@ -2298,9 +2299,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3120px;
-        height: 2160px;
+        height: 2660px;
     }
 
     #gallery .titlepage h2::after {
@@ -2311,7 +2312,7 @@
     /* footer */
 
     #contact.footer {
-        height: 760px;
+        height: 860px;
     }
 
     ul.link {
@@ -2458,9 +2459,9 @@
 
     /* gallery */
 
-    #gallery {
+    #gallery.Gallery {
         margin-top: 3080px;
-        height: 2420px;
+        height: 2820px;
     }
 
     #gallery .titlepage h2::after {
@@ -2471,7 +2472,7 @@
     /* footer */
 
     #contact.footer {
-        height: 814px;
+        height: 900px;
     }
 
     ul.link {
